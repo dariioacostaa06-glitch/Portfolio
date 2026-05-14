@@ -862,15 +862,22 @@ footer p {
     .hero {
         height: auto;
         min-height: auto;
-        padding-top: 120px;
+        padding-top: 140px;
         padding-bottom: 60px;
+        display: block;
     }
 
     .hero-container {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         text-align: center;
         gap: 40px;
+        height: auto;
+    }
+
+    .hero-content {
+        margin: 0 auto;
     }
     
     .hero-overlay {
@@ -881,6 +888,9 @@ footer p {
         display: flex;
         justify-content: center;
         width: 100%;
+        opacity: 1 !important;
+        animation: none !important;
+        transform: none !important;
     }
 
     .hero-image-frame {
