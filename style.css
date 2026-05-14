@@ -11,9 +11,9 @@
     --clr-text-light: #F9F6F0;
     --clr-text-muted: #7A7A7A;
     
-    --clr-accent: #26619C; /* Lapis Lazuli Blue */
-    --clr-accent-hover: #1E4E7D;
-    --clr-accent-light: rgba(38, 97, 156, 0.1);
+    --clr-accent: #00A8CC; /* Turquoise */
+    --clr-accent-hover: #0082A0;
+    --clr-accent-light: rgba(0, 168, 204, 0.1);
     
     /* Typography */
     --font-heading: 'Playfair Display', serif;
@@ -487,7 +487,7 @@ header.scrolled {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, rgba(38, 97, 156, 0.8), rgba(0,0,0,0));
+    background: linear-gradient(to top, rgba(0, 168, 204, 0.8), rgba(0,0,0,0));
     display: flex;
     align-items: flex-end;
     padding: 30px;
