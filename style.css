@@ -3,17 +3,17 @@
    ========================================= */
    :root {
     /* Color Palette */
-    --clr-bg-primary: #F5EFE6; /* Noticeable Light Beige */
-    --clr-bg-secondary: #EADDCD; /* Soft Clay, slightly darker for contrast */
+    --clr-bg-primary: #EBE0CD; /* More beige, distinctly beige */
+    --clr-bg-secondary: #DBCDB3; /* Soft Clay */
     --clr-bg-dark: #1E232A; /* Elegant Charcoal/Navy */
     
-    --clr-text-main: #0F3B5F; /* Logo Blue */
-    --clr-text-light: #F9F6F0;
-    --clr-text-muted: #4A6B8C;
+    --clr-text-main: #028080; /* Emerald Blue (Azul Esmeralda) */
+    --clr-text-light: #EBE0CD;
+    --clr-text-muted: #548B8B;
     
-    --clr-accent: #00A8CC; /* Turquoise */
-    --clr-accent-hover: #0082A0;
-    --clr-accent-light: rgba(0, 168, 204, 0.1);
+    --clr-accent: #028080; /* Emerald Blue */
+    --clr-accent-hover: #015959;
+    --clr-accent-light: rgba(2, 128, 128, 0.1);
     
     /* Typography */
     --font-heading: 'Playfair Display', serif;
@@ -487,7 +487,7 @@ header.scrolled {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, rgba(0, 168, 204, 0.8), rgba(0,0,0,0));
+    background: linear-gradient(to top, rgba(2, 128, 128, 0.8), rgba(0,0,0,0));
     display: flex;
     align-items: flex-end;
     padding: 30px;
